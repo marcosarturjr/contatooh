@@ -7,8 +7,8 @@ services:
 - mongodb
 
 env:
-global:
-- NODE_ENV: test
+	global:
+	- NODE_ENV: test
 
 
 addons:
