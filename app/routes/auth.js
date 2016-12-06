@@ -20,7 +20,7 @@ app.get('/logout', function(req, res) {
 
 
 //nao faz parte do projeto////////////////////////////////////////////////////////////////////////////////////
-app.get('/log', function(req, res, next) {
+app.get('/', function(req, res, next) {
 if(req.isAuthenticated()) {
 // permite que outras rotas sejam processadas
 return next();
