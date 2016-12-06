@@ -9,7 +9,7 @@ services:
 
 env:
 	global:
-	- NODE_ENV: development
+	- NODE_ENV: test
 
 
 addons:
